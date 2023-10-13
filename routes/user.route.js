@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const authController = require('..user.controller'); // Assurez-vous d'ajuster le chemin
+const authController = require('../controllers/user.controller'); // Assurez-vous d'ajuster le chemin
 
 // Route d'inscription
 router.post('/register', authController.registerUser);
